@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Play } from 'phosphor-react';
-import { CountDowContainer, FormContainer, HomeContainer, Separator, StartCountDowButton } from './styles';
+import { CountDowContainer, FormContainer, HomeContainer, MinutesAmountInput, Separator, StartCountDowButton, TaskInput } from './styles';
 
 const History = () => {
   return (
@@ -9,10 +9,16 @@ const History = () => {
       <form action=''>
         <FormContainer>
           <label htmlFor="task"> Vou trabalhar em</label>
-          <input type="text" id='task' />
+          <TaskInput type="text" list="task-sugestion" id='task' placeholder='Dê um nome para o seu projeto..' />
+
+          <datalist id='task-sugestion'>
+            <option value="projeto 1" />
+            <option value="projeto 2" />
+            <option value="projeto 3" />
+          </datalist>
 
           <label htmlFor="minutesAmount">durante</label>
-          <input type="number" id='minutesAmount' />
+          <MinutesAmountInput type="number" id='minutesAmount' placeholder='00' step={5} min={5} max={60} />
 
           <span>minutos.</span>
         </FormContainer>
