@@ -1,6 +1,6 @@
+import { Play } from 'phosphor-react';
 import React from 'react'
 
-import { Play } from 'phosphor-react';
 import { CountDowContainer, FormContainer, HomeContainer, MinutesAmountInput, Separator, StartCountDowButton, TaskInput } from './styles';
 
 const History = () => {
