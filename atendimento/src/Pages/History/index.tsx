@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-import { HistoryContainer, HistoryList } from './styles';
+import { HistoryContainer, HistoryList, Status } from './styles';
 
 const History = () => {
   return (
@@ -22,43 +22,43 @@ const History = () => {
               <td>Tarefa</td>
               <td>há 20 Minutos</td>
               <td>Há 2 Meses</td>
-              <td>Concluido</td>
+              <td><Status statusColor="green">Concluido</Status></td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>há 20 Minutos</td>
               <td>Há 2 Meses</td>
-              <td>Concluido</td>
+              <td><Status statusColor="green">Concluido</Status></td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>há 20 Minutos</td>
               <td>Há 2 Meses</td>
-              <td>Concluido</td>
+              <td><Status statusColor="green">Concluido</Status></td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>há 20 Minutos</td>
               <td>Há 2 Meses</td>
-              <td>Concluido</td>
+              <td><Status statusColor="green">Concluido</Status></td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>há 20 Minutos</td>
               <td>Há 2 Meses</td>
-              <td>Concluido</td>
+              <td><Status statusColor="green">Concluido</Status></td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>há 20 Minutos</td>
               <td>Há 2 Meses</td>
-              <td>Concluido</td>
+              <td><Status statusColor="green">Concluido</Status></td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>há 20 Minutos</td>
               <td>Há 2 Meses</td>
-              <td>Concluido</td>
+              <td><Status statusColor="green">Concluido</Status></td>
             </tr>
           </tbody>
         </table>
